@@ -1,0 +1,35 @@
+.about{
+    padding-bottom: 48px;
+}
+.about-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-fluid{
+    height:420px;
+}
+.about-info{
+    font-size: 24px;
+}
+.info-name{
+    font-size: 32px;
+    color:#FF725E
+}
+@media only screen and (max-width:768px){
+    .about-top{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-fluid{
+        height:280px;
+
+    }
+    .about-info{
+        font-size: 20px;
+    }
+    .info-name{
+        font-size: 26px;
+    }
+}    
