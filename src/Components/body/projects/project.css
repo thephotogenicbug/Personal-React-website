@@ -1,0 +1,5 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex:1; /* it will take all the width inside it */
+}
